@@ -49,7 +49,13 @@ pip install -r requirements.txt
 #### Usage
 To execute the image classification for the dog show, run:
 ```bash
-python check_images.py --dir pet_images/ --arch resnet --dogfile dognames.txt
+python check_images.py --dir pet_images/ --arch resnet  --dogfile dognames.txt > resnet_pet-images.txt
+python check_images.py --dir pet_images/ --arch alexnet --dogfile dognames.txt > alexnet_pet-images.txt
+python check_images.py --dir pet_images/ --arch vgg  --dogfile dognames.txt > vgg_pet-images.txt
+```
+or
+```bash
+sh run_models_batch.sh
 ```
 #### Results
 Upon execution, results including classification accuracy, breed identification accuracy, and time taken by each architecture will be printed and saved as specified.
