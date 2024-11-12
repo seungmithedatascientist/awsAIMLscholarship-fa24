@@ -60,6 +60,13 @@ sh run_models_batch.sh
 #### Results
 Upon execution, results including classification accuracy, breed identification accuracy, and time taken by each architecture will be printed and saved as specified.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3dc6824-1daf-4f12-bbec-e48de3fe4b7f" alt="AWSWinter24-Project1-small">
+</p>
+<p align="center">
+  <strong><em>Project 1 Completion Badge</em></strong>
+</p>
+
 ## Project 2: Create Your Own Image Classifier
 This section will contain the README documentation for the next project: Create Your Own Image Classifier. In this project, a custom image classifier will be developed using TensorFlow or PyTorch, focusing on transfer learning techniques to classify a specific set of images. Additional details will be added as the project progresses.
 
