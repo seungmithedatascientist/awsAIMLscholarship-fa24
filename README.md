@@ -172,8 +172,22 @@ The <strong>Create Your Own Image Classifier</strong> project focuses on develop
   <strong><em>Example Prediction Output</em></strong>
 </p>
 
-<p><strong>Command Used for Prediction:</strong></p>
+<p><strong>Command Used for Example Prediction:</strong></p>
 <pre><code>python predict.py flowers/test/2/image_05100.jpg checkpoint.pth --top_k 5 --category_names cat_to_name.json --gpu</code></pre>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be544148-5774-48b5-9c9e-156c51191d69" alt="awsWinter24-project2-badge" width="450">
+</p>
+<p align="center">
+  <strong><em>Project 2 Completion Badge</em></strong>
+</p>
+
+
+
+
+
+
+
 
 
 
